@@ -1,11 +1,11 @@
 [project]
 name = "BalanceDropper"
-version = "1.0.0"
+version = "2.0"
 authors = [{ name = "Ty-Gone" }]
 
-description = "Drop loot from any Item and ItemPool directly at your feet via a searchable blimgui UI."
+description = "Drop loot from any Item and ItemPool directly at your feet via a searchable blimgui UI. Also requires modder_commands not in the db"
 dependencies = [
-  "blimgui >= 1.0",
+  "blimgui >= 1.1",
 ]
 
 [tool.sdkmod]
